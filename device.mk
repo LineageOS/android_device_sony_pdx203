@@ -42,7 +42,8 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-   SonyPDX203SystemUIRes 
+    SonyPDX203SystemUIRes \
+    SonyPDX203FrameworksRes
 
 # HDR
 PRODUCT_COPY_FILES += \
