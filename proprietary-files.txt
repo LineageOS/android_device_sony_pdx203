@@ -616,6 +616,7 @@ vendor/etc/qdcm_calib_data_9.xml
 
 # Thermal configs
 vendor/etc/change.cfg
+vendor/etc/thermal-engine.conf
 
 # Touchscreen firmware
 vendor/firmware/touch_module_id_0x83.img
