@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a904cc0_827aca65",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 619,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2023-01-19T12:45:58Z",
+      "side": 1,
+      "message": "I compared the following blobs:\npdx203\n- XQ-AT52_58.2.A.7.93_Customized HK (ro.build.version.security_patch\u003d2022-06-01)\n- XQ-AT42_58.2.A.10.102_Customized JP (ro.build.version.security_patch\u003d2022-09-01)\npdx206\n- XQ-AS52_58.2.A.10.126_Customized EEA (ro.vendor.build.security_patch\u003d2022-10-01)\n- XQ-AS42_58.2.A.10.163_Customized JP (ro.vendor.build.security_patch\u003d2022-11-01)\n\nThe following data/config files are different between devices (pdx203 and pdx206), but are the same across the same devices on different dates.\n\nhttps://github.com/kyasu/android_device_sony_sm8250-common/commit/efb8774f46500a93f017a15f14726e3d01150b3f\n\nIt may be safer to decommonize these data/config files, not just thermal-engine.conf.",
+      "range": {
+        "startLine": 619,
+        "startChar": 0,
+        "endLine": 619,
+        "endChar": 30
+      },
+      "revId": "adf9952603291b9f8a15766fcef346da855fb2bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
