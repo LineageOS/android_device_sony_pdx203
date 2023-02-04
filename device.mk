@@ -38,6 +38,9 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
 PRODUCT_PACKAGES += \
    SonyPDX203SystemUIRes 
 
