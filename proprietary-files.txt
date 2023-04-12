@@ -633,6 +633,9 @@ vendor/lib64/camera/com.sony.sensormodule.eiger_imx557.bin
 vendor/lib64/camera/com.sony.sensormodule.eiger_s5k3t2.bin
 vendor/lib64/camera/com.sony.sensormodule.icarus_imx316.bin
 
+# Charger
+vendor/etc/chg-pwr-service.cfg
+
 # Display calibration data
 vendor/etc/qdcm_calib_data_9.xml
 
