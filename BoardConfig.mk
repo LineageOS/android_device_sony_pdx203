@@ -39,5 +39,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 # Props
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+# OTA
+TARGET_OTA_ASSERT_DEVICE := XQ-AT52,pdx203
+
 # inherit from the proprietary version
 -include vendor/sony/pdx203/BoardConfigVendor.mk
