@@ -38,4 +38,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="XQ-AT52-user 12 58.2.A.7.93 058002A007009304241360111 release-keys" \
     BuildFingerprint=Sony/XQ-AT52/XQ-AT52:12/58.2.A.7.93/058002A007009304241360111:user/release-keys \
     DeviceName=XQ-AT52 \
-    DeviceProduct=XQ-AT52
+    DeviceProduct=XQ-AT52 \
+    SystemDevice=XQ-AT52 \
+    SystemName=XQ-AT52
