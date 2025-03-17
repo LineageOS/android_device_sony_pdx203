@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d64bfc8_6805eb1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2025-03-17T00:36:25Z",
+      "side": 1,
+      "message": "See https://review.lineageos.org/c/LineageOS/android_build_soong/+/423159",
+      "revId": "d169576777d7dff9ff4be2e198818cd729724866",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
